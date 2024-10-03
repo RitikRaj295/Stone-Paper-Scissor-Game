@@ -1,7 +1,7 @@
 # Stone, Paper, Scissors Game
 This is a simple Stone, Paper, Scissors game implemented using HTML, CSS, and JavaScript. In this game, the player selects one of the options (Stone, Paper, or Scissors) by clicking an image. The computer randomly picks an option as well, and the result is displayed on the screen along with the score of the player and the computer.
 
-#Features
+<h1>Features</h1>
 
 -User Interface: Select your choice (Stone, Paper, or Scissors) by clicking the corresponding image.
 -Random Computer Selection: The computer randomly chooses between Stone, Paper, and Scissors.
