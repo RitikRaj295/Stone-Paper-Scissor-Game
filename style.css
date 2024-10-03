@@ -8,12 +8,14 @@ body{
     justify-content: center;
     align-items: center;
     font-size: 1.5rem;
+    user-select: none;
+
 
 }
 
 h1{
     font-size: 4rem;
-    color:rgb(20, 216, 151);
+    color:rgb(240, 45, 247);
     
 }
 .images{
@@ -23,6 +25,12 @@ h1{
     gap: 2.5rem;
     margin:5vh;
 }
+.images:hover{
+    cursor: pointer;
+}
+.img1:active,.img2:active,.img3:active{
+    opacity: .4;
+}
 
 .img1{
     height:25vh;
@@ -30,8 +38,8 @@ h1{
     background-image: url("./images/rock.png");
     background-size: cover;
     background-position: center;
-    border: 2px solid black;
-    border-radius: 2rem;
+    border: 1.5px solid black;
+    border-radius: 1rem;
 
 }
 .img2{
@@ -40,8 +48,8 @@ h1{
     background-image: url("./images/paper.png");
     background-size: cover;
     background-position: center;
-    border: 2px solid black;
-    border-radius: 2rem;
+    border: 1.5px solid black;
+    border-radius: 1rem;
 
 }
 .img3{
@@ -50,9 +58,58 @@ h1{
     background-image: url("./images/scissors.png");
     background-size: cover;
     background-position: center;
-    border: 2px solid black;
-    border-radius: 2rem;
+    border: 1.5px solid black;
+    border-radius: 1rem;
 
+}
+
+.score{
+    color:white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15vh;
+    font-size: 2rem;
+
+}
+#person1,#person2 {
+    color:aqua;
+    font-size: 1.3rem;
+}
+
+.msg{
+    margin: 1rem;
+    font-size: 2rem;
+    font-weight: bold;
+
+}
+
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:5rem;
+    margin-top: 1rem;
+}
+.playBtn:active,.resetBtn:active{
+    opacity: .8;
+}
+
+button{
+    height: 10vh;
+    width: 25vw;
+    font-size: 2rem;
+    border: 2px solid black;
+    border-radius: 7rem;
+
+}
+.playBtn{
+    background-color: rgb(35, 169, 35);
+}
+.resetBtn{
+    background-color: rgb(206, 140, 59);
 }
 
 
