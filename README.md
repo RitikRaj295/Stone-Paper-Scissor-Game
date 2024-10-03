@@ -9,10 +9,12 @@ This is a simple Stone, Paper, Scissors game implemented using HTML, CSS, and Ja
 -Score Tracking: The score for both the player and the computer is displayed and updated after each round.
 
 <h3>How to Play</h3>
-1.Open the game in a web browser.
-2.Click on one of the images representing Stone, Paper, or Scissors.
-3.The computer will also make a random selection.
-4.The result of the round will be displayed, and the score will be updated.
+<ol></ol>
+<li>Open the game in a web browser.</li>
+<li>Click on one of the images representing Stone, Paper, or Scissors.</li>
+<li>The computer will also make a random selection.</li>
+<li>The result of the round will be displayed, and the score will be updated.</li>
+</ol>
 
 <h3>Game Rules</h3>
 1.Stone beats Scissors.
