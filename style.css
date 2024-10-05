@@ -14,7 +14,7 @@ body{
 }
 
 h1{
-    font-size: 4rem;
+    font-size: 3rem;
     color:rgb(110, 154, 23);
     
 }
@@ -25,6 +25,7 @@ h1{
     gap: 2.5rem;
     margin:5vh;
     font-size: 0;
+    user-select: none;
 }
 .images:hover{
     cursor: pointer;
@@ -120,8 +121,9 @@ button{
 
 @media  (max-width:600px ){ 
    h1{
-    font-size: 3rem;
+    font-size: 2.3rem;
     color: rgb(255, 192, 44);
+    text-align: center;
    }
    body{
     background-color: hwb(271 6% 57%);
@@ -131,6 +133,7 @@ button{
     align-items: center;
     font-size: 1.5rem;
     user-select: none;
+
 }
 .images{
     display: flex;
@@ -139,6 +142,7 @@ button{
     gap: 1rem;
     margin:5vh;
     font-size: 0;
+    user-select: none;
 }
 .images:hover{
     cursor: pointer;
@@ -222,6 +226,7 @@ button{
     font-size: 1.3rem;
     border: 2px solid black;
     border-radius: 3rem;
+    user-select: none;
 
 }
 
