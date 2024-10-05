@@ -9,8 +9,10 @@ let rstBtn=document.querySelector(".resetBtn");
 
 
 function ResetBtn(){
-    usrScr.innerText=0;
-    cmpScr.innerText=0;
+    userScore=0;
+    usrScr.innerText=userScore;
+    computerScore=0;
+    cmpScr.innerText=computerScore;
     msgBox.style.backgroundColor="rgb(178, 76, 178)";
     msgBox.innerText="Lets start the game";
 
