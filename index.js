@@ -49,14 +49,14 @@ function showWinner(userWin,userChoice,computerChoice){
   if(userWin){
     userScore++;
     usrScr.innerText=userScore;
-    msgBox.innerText=`Congrats, Your ${userChoice} break ${computerChoice}`;
+    msgBox.innerText=`Congrats, Your ${userChoice} win to ${computerChoice}`;
     msgBox.style.backgroundColor="green";
 
   }
   else{
     computerScore++;
     cmpScr.innerText=computerScore;
-    msgBox.innerText="Oops, You Loose";
+    msgBox.innerText=`Oops, Your ${userChoice} lose to ${computerChoice}`;
     msgBox.style.backgroundColor="red";
 
 
